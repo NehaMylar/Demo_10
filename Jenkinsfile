@@ -22,7 +22,7 @@ pipeline {
   {
     always
     {
-     emailext body: 'summary', replyTo: 'nehamylar00@gmail.com', subject: 'pipeline', to: 'nehamylar00@gmail.com''
+    emailext body: 'summary', replyTo: 'nehamylar00@gmail.com', subject: 'pipe', to: 'nehamylar00@gmail.com'
     }
   }
 }
